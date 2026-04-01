@@ -139,7 +139,10 @@ warehouseiq/
 
 **Drisya Raju**
 
-*Built with curiosity, Python, and a deep respect for supply chain efficiency.*
+
+🚀 Live App: https://warehouse-operations-regression-2c3rbgbu3tyuuz9vwklrdu.streamlit.app
+
+
 
 [![GitHub](https://img.shields.io/badge/GitHub-DrisyaRaju-181717?style=flat-square&logo=github)](https://github.com/drisyaraju)
 
