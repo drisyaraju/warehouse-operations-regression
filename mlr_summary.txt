@@ -1,0 +1,32 @@
+                                OLS Regression Results                               
+=====================================================================================
+Dep. Variable:     Order_Processing_Time_min   R-squared:                       0.915
+Model:                                   OLS   Adj. R-squared:                  0.914
+Method:                        Least Squares   F-statistic:                     1068.
+Date:                       Sun, 01 Mar 2026   Prob (F-statistic):               0.00
+Time:                               22:06:17   Log-Likelihood:                -2581.7
+No. Observations:                        800   AIC:                             5181.
+Df Residuals:                            791   BIC:                             5224.
+Df Model:                                  8                                         
+Covariance Type:                   nonrobust                                         
+============================================================================================
+                               coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+const                        6.5327      1.120      5.835      0.000       4.335       8.730
+Num_Items_Ordered            0.8035      0.016     51.723      0.000       0.773       0.834
+Warehouse_Distance_m         0.0486      0.003     18.389      0.000       0.043       0.054
+Num_Workers_Available       -1.2344      0.040    -30.758      0.000      -1.313      -1.156
+Order_Weight_kg              0.1521      0.008     20.059      0.000       0.137       0.167
+Hour_of_Day                  0.2610      0.032      8.170      0.000       0.198       0.324
+Num_Pending_Orders           0.4014      0.008     53.070      0.000       0.387       0.416
+Packing_Complexity_Score     2.0198      0.075     27.024      0.000       1.873       2.167
+Equipment_Downtime_min       0.5825      0.025     23.600      0.000       0.534       0.631
+==============================================================================
+Omnibus:                        0.303   Durbin-Watson:                   2.036
+Prob(Omnibus):                  0.859   Jarque-Bera (JB):                0.395
+Skew:                          -0.026   Prob(JB):                        0.821
+Kurtosis:                       2.905   Cond. No.                         985.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
